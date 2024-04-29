@@ -1,0 +1,5 @@
+# .nmpignore requires prefixing with / to match the root of the project
+# !!! removing slash will brake the ignore rule !!!
+/*
+!/dist/*
+/**/*.tsbuildinfo
